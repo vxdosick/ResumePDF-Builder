@@ -53,7 +53,6 @@
   }
   a, a:visited {
     text-decoration: none;
-    color: rgb(211, 211, 211);
   }
   a:hover {
     text-decoration: none;
@@ -77,22 +76,260 @@
     padding-left: 15px;
     padding-right: 15px;
   }
+  .text--title {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+    /* --------------------------------------- */
   .wrapper {
     width: 210mm;
     height: 297mm;
     border: 1px solid black;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
   }
-  .header {
-    display: flex;
-    justify-content: space-between;
+  .header__img img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
   }
+  
     </style>
 </head>
 <body>
     <div class="wrapper">
-        <div class="header">
-            <p>ffsfdgsdfg</p>
-            <p>fvbncxz</p>
+        <div class="content">
+            <div class="header">
+                <div class="header__img">
+                    <img src="http://localhost:8080/images/vxdosick.jpg" alt="person">
+                    <div class="header__content">
+                        <div class="header__contacts">
+                            <a href="tel:+48883289360">Phone: +48883289360</a>
+                            <a href="mailto:vadymfoteniuk.w@gmail">
+                                Email: vadymfoteniuk.w@gmail.com</a>
+                            <a href="https://www.linkedin.com/in/vadym-foteniuk-423a53318/">
+                                LinkedIn: https://www.linkedin.com/in/vadym-foteniuk-423a53318/
+                            </a>
+                            <a href="https://github.com/vxdosick">
+                                GitHub: https://github.com/vxdosick
+                            </a>
+                            <a href="https://t.me/vxdosick">Telegram: @vxdosick</a>
+                        </div>
+                        <h1>Vadym Foteniuk</h1>
+                        <h2>Fullstack Developer</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="main">
+                <div class="main__left">
+                    <div class="main__summary">
+                        <h2>Summary</h2>
+                        <p>
+                            Hi, I'm 20 years old and have been doing web development for about a year. I develop both frontend and backend parts. I have several pet projects and now I am actively developing startups. I have commercial experience as a frontend developer and am looking for a dream team. I am a very creative person in my spare time I write music and play sports.
+                        </p>
+                    </div>
+                    <div class="main__skills">
+                        <h2>Skills</h2>
+                        <ul>
+                            <li>HTML, CSS</li>
+                            <li>JavaScript</li>
+                            <li>TypeScript</li>
+                            <li>React.js</li>
+                            <li>Next.js</li>
+                            <li>ChakraUI</li>
+                            <li>Node.js (Express)</li>
+                            <li>MongoDB</li>
+                            <li>Git</li>
+                            <li>Scss</li>
+                            <li>Tailwind</li>
+                            <li>Bootstrap</li>
+                            <li>Vue.js</li>
+                        </ul>
+                    </div>
+                    <div class="main__languages">
+                        <h2>Languages</h2>
+                        <ul>
+                            <li>English B1</li>
+                            <li>Polish B2</li>
+                            <li>Ukrainian C1</li>
+                            <li>Russian C1</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="main__right">
+                    <div class="main__experience">
+                        <h2>Experience</h2>
+                        <ul class="main__experiencemenu">
+                            <li>
+                                <div>
+                                    <h3>DOT.Agency</h3>
+                                    <p>January 2021 - Present</p>
+                                </div>
+                                <h4>Frontend Developer</h4>
+                                <p>
+                                    Developed the main page for the DOT.Agency website using HTML, SCSS, JS. Developing, optimising, adding new frontend functionality for customers. Developing, optimising, adding new frontend functionality for customers using HTML, CSS, JS, TS, React.js, Tailwind, SCSS.    
+                                </p>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div>
+                                    <h3>WinWinTravel</h3>
+                                    <p>January 2021 - Present</p>
+                                </div>
+                                <h4>React Frontend Developer (intern)</h4>
+                                <p>
+                                    Developing an international booking platform. My role was to build the client side using technologies such as React, ChakraUI, i18n, zustand. Optimised and simplified the code of the main pages of the startup.   
+                                </p>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div>
+                                    <h3>Freelance work | Landing pages layout, 
+                                        web application</h3>
+                                    <p>January 2021 - Present</p>
+                                </div>
+                                <p>
+                                    I do custom layout using HTML, CSS, Sass. I also create web
+                                    applications from scratch using MEVN stack. made layouts for
+                                     the dot.agency website  
+                                </p>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div>
+                                    <h3>Development of joint commercial projects</h3>
+                                    <p>January 2021 - Present</p>
+                                </div>
+                                <p>
+                                    I am working on my own projects such as SyntaxWave Digital,
+                                     FindYourCocktail, InEnglish, HeardByTheWorld, which are
+                                      used by people and will be monitised in the future
+                                </p>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="main__education">
+                        <h2>Education</h2>
+                        <div class="main__educationmenu">
+                            <div>
+                                <h3>University of Economics and Human Sciences in Warsaw</h3>
+                                <p>2022-2026</p>
+                            </div>
+                            <h4>Informatics Sciences (Web-development and AI)</h4>
+                        </div>
+                    </div>
+                    <div class="main__courses">
+                        <h2>Courses</h2>
+                        <ul>
+                            <li>
+                                <div>
+                                    <h3>Course JavaScript FullStack Developer</h3>
+                                    <p>January 2021 - Present</p>
+                                </div>
+                                <p>
+                                    Course JavaScript FullStack Developer | 2022.04.25 - 2022.06.25
+During the course I learnt a lot of web development techniques and wrote several
+small projects. Studied: HTML, CSS, Bootstrap, Git, JS, jQuery, Vue.js, React.js,
+Node.js, Express.js, MongoDB, TypeScript.
+
+                                </p>
+                                <a 
+                                href="https://itproger.com/view-diplom/ed477bbb639ec0c3c30b339ade85d7fd/node-js/us
+                                ">Diploma: https://itproger.com/view-diplom/ed477bbb639ec0c3c30b339ade85d7fd/node-js/us
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="main__projects">
+                        <h2>Projects</h2>
+                        <ul>
+                            <li>
+                                <h3>SyntaxWave Digital</h3>
+                                <p>
+                                    Commercial project to specify layout services, web development, email
+development, email marketing. HTML, Sass, TS + Node.js (Express), Nodemailer +
+node-telegram-bot-api
+                                </p>
+                                <a href=""></a>
+                            </li>
+                            <li>
+                                <h3>FindYourCocktail</h3>
+                                <p>
+                                    An for bartenders FullStack application on MEVN + Sass +
+                                     TypeScript
+                                </p>
+                                <a 
+                                href="https://find-your-cocktail-2.onrender.com">
+                                Site: https://find-your-cocktail-2.onrender.com</a>
+                            </li>
+                            <li>
+                                <h3>InEnglish</h3>
+                                <p>
+                                    English learning FullStack application on MEVN + Sass +
+                                     TypeScript
+                                </p>
+                                <a 
+                                href="https://inenglish.onrender.com">
+                                Site: https://inenglish.onrender.com</a>
+                            </li>
+                            <li>
+                                <h3>smailBeats</h3>
+                                <p>
+                                    Online shop for selling music HTML, CSS + JS
+                                </p>
+                                <a 
+                                href="https://vxdosick.github.io/smailBeats-FrontendApp-html-css-js/">
+                                Site: 
+                                https://vxdosick.github.io/smailBeats-FrontendApp-html-css-js/
+                            </a>
+                            </li>
+                            <li>
+                                <h3>ToDoList</h3>
+                                <p>
+                                    A series of 2 webpage and mobile job manager applications
+                                     React + ChakraUI + zustand + i18n. As well as React Native
+                                </p>
+                                <a 
+                                href="https://vxdosick.github.io/smailBeats-FrontendApp-html-css-js/">
+                                Site: 
+                                https://vxdosick.github.io/smailBeats-FrontendApp-html-css-js/
+                            </a>
+                            </li>
+                            <li>
+                                <h3>Party</h3>
+                                <p>
+                                    Frontend application for event management HTML, CSS +
+                                     Node.js Express
+
+                                </p>
+                                <a 
+                                href="https://vxdosick.github.io/smailBeats-FrontendApp-html-css-js/">
+                                Site: 
+                                https://vxdosick.github.io/smailBeats-FrontendApp-html-css-js/
+                            </a>
+                            </li>
+                            <li>
+                                <h3>All projects</h3>
+                                <a href="https://github.com/vxdosick">
+                                    https://github.com/vxdosick
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
