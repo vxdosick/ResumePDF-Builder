@@ -12,7 +12,7 @@ fs.readFile('D:\\Projects\\resume-builder\\templates\\index.html', 'utf8', (err,
   let options = { format: 'A4' };
 
   pdf.generatePdf(file, options).then(pdfBuffer => {
-    fs.writeFileSync("D:\\Projects\\resume-builder\\output\\output.pdf", pdfBuffer);
+    fs.writeFileSync("D:\\Projects\\resume-builder\\output\\Fullstack.pdf", pdfBuffer);
     console.log("PDF saved successfully");
   }).catch(error => {
     console.error("Error create PDF", error);
